@@ -85,18 +85,4 @@
       "imageHint": "elegant Nigerian restaurant interior with African art"
     }
   ]
-}# Initialize a new Git repository
-git init -b main
-
-# Add all the files to be tracked
-git add .
-
-# Create your first commit (a snapshot of your code)
-git commit -m "Initial commit"
-
-# Link your local folder to your GitHub repository
-git remote add origin <YOUR-GITHUB-REPO-URL>
-
-# Push your code up to GitHub
-git push -u origin main
-
+}
