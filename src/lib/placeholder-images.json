@@ -3,85 +3,85 @@
     {
       "id": "hero-1",
       "description": "Elegant modern Nigerian restaurant interior in Lagos with warm lighting and African artistic decor",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/a59ca21678ce84dc67a699c36c223294fe2ace2b.jpg",
+      "imageUrl": "/images/hero-1.jpg",
       "imageHint": "real Lagos restaurant interior - Ekaabo style with warm lights and modern African design"
     },
     {
       "id": "hero-2",
       "description": "A table spread with delicious Nigerian food",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/110f40b56ee37e25e31f18d19912db858592bd21.jpg",
+      "imageUrl": "/images/hero-2.jpg",
       "imageHint": "authentic Nigerian feast spread"
     },
     {
       "id": "hero-3",
       "description": "A collection of vibrant, handcrafted cocktails",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/1f84fd0d6715055358ff6549dabee82148eb2fcf.jpg",
+      "imageUrl": "/images/hero-3.jpg",
       "imageHint": "vibrant Nigerian-style mocktails and cocktails"
     },
     {
       "id": "dish-jollof",
       "description": "A vibrant plate of Nigerian Jollof Rice with chicken",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/2baf2596193d8c1ebb6aff04b3816e1a12d41143.jpg",
+      "imageUrl": "/images/dish-jollof.jpg",
       "imageHint": "authentic Nigerian jollof rice with chicken"
     },
     {
       "id": "dish-tilapia",
       "description": "Perfectly grilled Tilapia with lemon and herbs",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/f97a72e8ec5ec2ac93d29fff90d783e7a8d3217f.jpg",
+      "imageUrl": "/images/dish-tilapia.jpg",
       "imageHint": "real Nigerian grilled tilapia with sides"
     },
     {
       "id": "dish-suya",
       "description": "Authentic spicy Suya beef skewers",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/40138d04a77cc2933344d6e983509ce43794edcf.jpg",
+      "imageUrl": "/images/dish-suya.jpg",
       "imageHint": "authentic Nigerian beef suya skewers"
     },
     {
       "id": "dish-puffpuff",
       "description": "A bowl of sweet, fluffy Puff Puff donuts",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/3bbb2732e36d9cffcf1178eca861f96e500b69e8.jpg",
+      "imageUrl": "/images/dish-puffpuff.jpg",
       "imageHint": "fresh Nigerian puff puff in bowl"
     },
     {
       "id": "dish-chapman",
       "description": "A refreshing glass of Chapman cocktail",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/370169c9d7bf196fea20298eac62ed2e61698bad.jpg",
+      "imageUrl": "/images/dish-chapman.jpg",
       "imageHint": "classic Nigerian Chapman drink"
     },
     {
       "id": "dish-egusi",
       "description": "A rich bowl of Egusi soup",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/0718eb71db71ebf61f050fc7d73c52c1e77b2b91.jpg",
+      "imageUrl": "/images/dish-egusi.jpg",
       "imageHint": "traditional Nigerian egusi soup with swallow"
     },
     {
       "id": "dish-moimoi",
       "description": "Savory steamed bean pudding",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/bce6d8d92e2840b5c86a3bfc679a90f35e7aeac6.jpg",
+      "imageUrl": "/images/dish-moimoi.jpg",
       "imageHint": "authentic Nigerian moi moi"
     },
     {
       "id": "dish-plantain",
       "description": "Golden fried dodo (plantains)",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/8c55e9ef1c47cbce0ef7d887a17e7a029000e8c2.jpg",
+      "imageUrl": "/images/dish-plantain.jpg",
       "imageHint": "crispy Nigerian fried plantains dodo"
     },
     {
       "id": "dish-zobo",
       "description": "A glass of chilled Zobo (hibiscus) drink",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/cc4c568103de6d21e9c1ffb962e67507ca9bd32d.jpg",
+      "imageUrl": "/images/dish-zobo.jpg",
       "imageHint": "chilled Nigerian zobo drink"
     },
     {
       "id": "dish-chinchin",
       "description": "A bowl of crunchy chin chin snacks",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/e2f87c0e419ff0dcb3d5444242e05f7ce8a4145a.jpg",
+      "imageUrl": "/images/dish-chinchin.jpg",
       "imageHint": "crunchy Nigerian chin chin snacks"
     },
     {
       "id": "about-interior",
       "description": "The beautiful interior of Lagoon Lagos restaurant",
-      "imageUrl": "https://pplx-res.cloudinary.com/image/upload/pplx_search_images/6b4a21c161bffc6a910c6547c5c1551ebe8d64d0.jpg",
+      "imageUrl": "/images/about-interior.jpg",
       "imageHint": "elegant Nigerian restaurant interior with African art"
     }
   ]
