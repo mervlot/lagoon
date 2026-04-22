@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import Autoplay from 'embla-carousel-autoplay';
@@ -15,6 +14,7 @@ import {
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from './ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { OptimizedImage } from './optimized-image';
 
 export function HeroCarousel() {
   const [api, setApi] = useState<CarouselApi>();
@@ -82,7 +82,7 @@ export function HeroCarousel() {
           {carouselImages.map((image, index) => (
             <CarouselItem key={image.id}>
               <div className="relative h-[70vh] min-h-[500px] w-full md:h-[80vh]">
-                <Image
+                <OptimizedImage
                   src={image.imageUrl}
                   alt={image.description}
                   fill
@@ -90,6 +90,7 @@ export function HeroCarousel() {
                   className="object-cover"
                   data-ai-hint={image.imageHint}
                   sizes="100vw"
+                  quality={85}
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/70" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">

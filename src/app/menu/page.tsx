@@ -1,7 +1,7 @@
 'use client';
 
-import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { OptimizedImage } from '@/components/optimized-image';
 import {
   Card,
   CardContent,
@@ -76,13 +76,14 @@ export default function MenuPage() {
                             <CardHeader className="p-0">
                               <div className="relative aspect-[4/3] w-full overflow-hidden">
                                 {image && (
-                                  <Image
+                                  <OptimizedImage
                                     src={image.imageUrl}
                                     alt={dish.name}
                                     fill
                                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                     data-ai-hint={image.imageHint}
+                                    quality={80}
                                   />
                                 )}
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />

@@ -1,7 +1,7 @@
 'use client';
 
-import Image from 'next/image';
 import { useState } from 'react';
+import { OptimizedImage } from '@/components/optimized-image';
 import {
   Card,
   CardContent,
@@ -94,13 +94,14 @@ export function OrderClient() {
                 <CardHeader className="p-0">
                   <div className="relative aspect-video w-full">
                     {image && (
-                      <Image
+                      <OptimizedImage
                         src={image.imageUrl}
                         alt={dish.name}
                         fill
                         className="object-cover"
                         sizes="(max-width: 640px) 100vw, 50vw"
                         data-ai-hint={image.imageHint}
+                        quality={80}
                       />
                     )}
                   </div>
